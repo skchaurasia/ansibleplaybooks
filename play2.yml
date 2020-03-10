@@ -2,4 +2,4 @@
 - hosts: node2
   tasks:
         - name: creating a file named wiht nuts.txt under /srv
-          file: path=/srv/nuts.txt state=touch
+          copy: dest=/srv/nuts.txt content="Welcome to Network Nuts\n"

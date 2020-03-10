@@ -1,0 +1,6 @@
+---
+- hosts: node2
+  tasks:
+        - name: display custom msg
+          debug:
+                msg: "Welcome to Network Nuts"

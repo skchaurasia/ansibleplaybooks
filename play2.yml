@@ -1,0 +1,5 @@
+---
+- hosts: node2
+  tasks:
+        - name: creating a file named wiht nuts.txt under /srv
+          file: path=/srv/nuts.txt state=touch

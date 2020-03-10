@@ -1,2 +1,0 @@
-[prod]
-node1 ansible_user=devops ansible_private_key_file=/var/lib/jenkins/workspace/git-ansible-demo/id_rsa

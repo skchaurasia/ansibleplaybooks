@@ -1,5 +1,5 @@
 ---
-- hosts: node2
+- hosts: prod
   tasks:
         - name: display custom msg
           debug:

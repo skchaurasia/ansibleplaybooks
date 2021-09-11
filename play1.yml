@@ -1,5 +1,5 @@
 ---
-- hosts: prod
+- hosts: localhost
   tasks:
         - name: display custom msg
           debug:
